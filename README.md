@@ -1,5 +1,5 @@
 # DeFungi-CNN
-Image classification of Microscopic Fungi w/ Transfer Learning (EfficientNetV2)
+Microscopic Fungi Images Classification w/ Transfer Learning (EfficientNetV2)
 
 ## Data Introduction
 
