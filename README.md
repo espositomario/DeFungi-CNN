@@ -1,8 +1,7 @@
 # DeFungi-CNN
 Image classification of Microscopic Fungi w/ Transfer Learning (EfficientNetV2)
 
-## Introduction
-***Task:*** Classification of Microscopic Fungi Images 
+## Data Introduction
 
 ***Reference:*** [Sopo et al. 2021, DeFungi: Direct Mycological Examination of Microscopic Fungi Images](https://arxiv.org/abs/2109.07322)  
 
