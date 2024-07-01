@@ -20,6 +20,6 @@ The real-world data was provided by LEMM, including 3,025 unlabeled images of su
 
 ***Running time:*** ~1h30m (Apple M1 Pro w/ Metal GPU acceleration)
 
+---
 
-## Python dependencies
-For reproducibility all packages and version in ```conda.yml```
+For reproducibility all **packages and version** in ```conda.yml```
