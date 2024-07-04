@@ -1,10 +1,12 @@
-
-
 # DeFungi-CNN
 
 ***Aim:*** Classify images of 5 species of microscopic fungi which cause Dermatomycosis (fungal skin infections)
 
 ***Strategy:***  CNNs w/o Augmentation and transfer learning with EfficientNetV2 models
+
+***Results:*** ENv2-B0 as best model with a Macro-F1 = 0.86 on test set
+
+***Strategy:***  CNNs w/o Augmentation and Transfer learning with EfficientNetV2 models
 
 ***Results:*** ENv2-B0 as best model with a Macro-F1 = 0.86 on test set
 
@@ -27,6 +29,8 @@ The real-world data was provided by LEMM, including 3,025 unlabeled images of su
 ***Running time:*** ~1h30m (Apple M1 Pro w/ Metal GPU acceleration)
 
 ---
+
+### Table of contents
 
 - **Introduction**
   - **Five types of fungi**
@@ -56,6 +60,7 @@ The real-world data was provided by LEMM, including 3,025 unlabeled images of su
     - **Feature extraction**
     - **Fine-tuning *(unfreeze last layers weights)***
 - **Evaluate the best model on Test set (Hold-out)**
+
 
 ---
 
