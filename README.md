@@ -1,6 +1,6 @@
 # DeFungi-CNN
 
-Image classification of superficial fungal infections (dermatomycoses) w/ CNN and Transfer Learning (EfficientNetV2, Macro-F1 = 0.86) 
+Image classification of superficial fungal infections (dermatomycoses) with CNNs and Transfer Learning (EfficientNetV2, Macro-F1 = 0.86) 
 
 ## Introduction
 
