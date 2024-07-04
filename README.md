@@ -6,10 +6,6 @@
 
 ***Results:*** ENv2-B0 as best model with a Macro-F1 = 0.86 on test set
 
-***Strategy:***  CNNs w/o Augmentation and Transfer learning with EfficientNetV2 models
-
-***Results:*** ENv2-B0 as best model with a Macro-F1 = 0.86 on test set
-
 ---
 
 ***Reference:*** [Sopo et al. 2021, DeFungi: Direct Mycological Examination of Microscopic Fungi Images](https://arxiv.org/abs/2109.07322)  
