@@ -1,14 +1,18 @@
+
+
 # DeFungi-CNN
 
-Image classification of superficial fungal infections (dermatomycoses) with CNNs and Transfer Learning (EfficientNetV2, Macro-F1 = 0.86) 
+***Aim:*** Classify images of 5 species of microscopic fungi 
 
-## Introduction
+***Strategy:***  CNNs w/o Augmentation and transfer learning with EfficientNetV2
+
+***Results:*** ENv2-B0 as best model with a Macro-F1 = 0.86 on test set
 
 ***Reference:*** [Sopo et al. 2021, DeFungi: Direct Mycological Examination of Microscopic Fungi Images](https://arxiv.org/abs/2109.07322)  
 
 ***Data Repository:*** [UCI ML (Donated on 1/28/2023)](https://archive.ics.uci.edu/dataset/773/defungi) 
 
-***Description:***
+***Data description:***
 The real-world data was provided by LEMM, including 3,025 unlabeled images of superficial fungal infections caused by dermatophyte fungi, moulds, or yeasts. All the raw images were sourced from a Sony’s DSC W830 compact camera. After collection, patching, filtering, and additional data preprocessing steps were executed to make the images fit for fungal infection detection. An automated procedure was developed using Python programming language to generate 500 × 500 pixels patches for each image. This was done to filter out the insignificant regions in the raw images that did not contain any fungi. Further, noise and unwanted artifacts were also removed via this method. The final number of relevant images was ***9114***, with 4404, 2334, 819, 818, and 739 images belonging to TSH, BASH, GMA, SHC, and BBH classes, respectively.
 
 ***Data format:*** Images (500x500, RGB)
