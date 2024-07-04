@@ -60,4 +60,4 @@ The real-world data was provided by LEMM, including 3,025 unlabeled images of su
 
 ---
 
-For reproducibility all **packages and versions** in ```conda.yml```
+***packages and versions*** in ```conda.yml```
