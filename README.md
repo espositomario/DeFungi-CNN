@@ -8,6 +8,8 @@
 
 ***Results:*** ENv2-B0 as best model with a Macro-F1 = 0.86 on test set
 
+---
+
 ***Reference:*** [Sopo et al. 2021, DeFungi: Direct Mycological Examination of Microscopic Fungi Images](https://arxiv.org/abs/2109.07322)  
 
 ***Data Repository:*** [UCI ML (Donated on 1/28/2023)](https://archive.ics.uci.edu/dataset/773/defungi) 
@@ -23,6 +25,37 @@ The real-world data was provided by LEMM, including 3,025 unlabeled images of su
 - **Test set---------> 10% (916)** (Hold-out for final evaluation)
 
 ***Running time:*** ~1h30m (Apple M1 Pro w/ Metal GPU acceleration)
+
+---
+
+- **Introduction**
+  - **Five types of fungi**
+  - **Import libraries**
+  - **Define functions**
+  - **Metrics Computed per Individual Class**
+  - **Macro-F1**
+  - **Download and split data**
+  - **Setup plotting parameters**
+  - **Setup data parameters**
+  - **ImageDataGenerator**
+  - **Class distribution (imbalanced)**
+  - **View some random selected images for each class**
+- **CNN**
+  - **Class weights**
+  - **EarlyStopping**
+  - **ReduceLROnPlateau**
+- **CNN(+ Dropout + Augmentation)**
+  - **Augmentation**
+  - **Visualize augmented images**
+  - **Dropout**
+- **Transfer learning**
+  - **EfficientNetV2B0 (6M)**
+    - **Feature extraction**
+    - **Fine-tuning *(unfreeze last layers weights)***
+  - **EfficientNetV2S (20M)**
+    - **Feature extraction**
+    - **Fine-tuning *(unfreeze last layers weights)***
+- **Evaluate the best model on Test set (Hold-out)**
 
 ---
 
